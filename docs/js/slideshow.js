@@ -22,5 +22,8 @@ $(document).ready(function () {
         setTimeout(showPhotos, 500)
     }
 
+    setTimeout(function () {
+        $('.photo img').addClass('shadowed')
+    }, 100)
 
 })
