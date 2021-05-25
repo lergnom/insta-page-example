@@ -37,6 +37,10 @@ img {
     display: block;
 }
 
+.photo img {
+    display: none;
+}
+
 .wrapper {
     max-width: 1170px;
     margin-left: auto;
