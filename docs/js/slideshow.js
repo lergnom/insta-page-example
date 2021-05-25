@@ -7,7 +7,6 @@ $(document).ready(function () {
 
         let slides = $('.photo img')
 
-        console.log(slides)
 
         for (let i = 0; i < slides.length; i++) {
             $(slides[i]).hide()
@@ -17,7 +16,6 @@ $(document).ready(function () {
             slideIndex = 1
         }
         slideIndex++
-        console.log(slideIndex)
         $(slides[slideIndex - 1]).show()
         setTimeout(showPhotos, 500)
     }
